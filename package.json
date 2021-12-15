@@ -1,0 +1,12 @@
+{
+  "homepage": "http://gopindex.github.io/",
+
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  }
+
+}
